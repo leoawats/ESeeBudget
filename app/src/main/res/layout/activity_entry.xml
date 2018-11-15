@@ -47,4 +47,14 @@
             android:hint="  price"
             android:textSize="24sp" />
     </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/toIndex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="39dp"
+        android:onClick="toIndex"
+        android:text="Button" />
 </RelativeLayout>
